@@ -1,0 +1,25 @@
+# When adding a number and a string, JavaScript will treat the number as a string.
+ - JavaScript evaluates expressions from left to right. Different sequences can produce different results
+
+# avaScript Numbers
+  JavaScript has only one type of numbers.
+  Numbers can be written with, or without decimals
+  Ex: 1.00 or 1
+
+# JavaScript Arrays
+  JavaScript arrays are written with square brackets.
+  var cars = ["Saab", "Volvo", "BMW"];
+
+# JavaScript Objects
+  JavaScript objects are written with curly braces.
+  Object properties are written as name:value pairs, separated by commas.
+  var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+----------------------
+# The typeof Operator
+  You can use the JavaScript typeof operator to find the type of a JavaScript variable.
+----------------------
+
+# Null
+  In JavaScript null is "nothing". It is supposed to be something that doesn't exist.
+  Unfortunately, in JavaScript, the data type of null is an object.
+  You can consider it a bug in JavaScript that typeof null is an object. It should be null.
