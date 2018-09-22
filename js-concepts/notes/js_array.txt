@@ -1,0 +1,47 @@
+# arrays are same almost same as pythons
+    var array_name = [item1, item2, ...];     // dont put comma after last value, might not supported in old browsers.
+    - Accessing the Last Array Element
+        fruits = ["Banana", "Orange", "Apple", "Mango"];
+        var last = fruits[fruits.length - 1];
+    - Adding Array Elements:
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fruits.push("kiwi"); or fruits[fruits.length] = "Kiwi";
+    - toString(): The JavaScript method toString() converts an array to a string of (comma separated) array values.
+    - join(): It behaves just like toString(), but in addition you can specify the separator.
+    - pop(): The pop() method removes the last element from an array and returns the value that popped.
+    - push(): The push() method adds a new element to an array (at the end) and returns the new array length
+    - shift(): The shift() method removes the first array element and "shifts" all other elements to a lower index.
+    - unshift(): The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+    - delete: Using delete may leave undefined holes in the array. Use pop() or shift() instead or splice.
+    - splice(start position, how many elements from this position should be removed) method changes the original array where as slice() doesn't change the original array and infact returns a new one.
+    - The concat() method creates a new array by merging (concatenating) existing arrays. it returns new array and can also take values as arguments.
+    -
+
+# The Difference Between Arrays and Objects
+- In JavaScript, arrays use numbered indexes.
+- In JavaScript, objects use named indexes.
+
+# How to Recognize an Array
+- typeof operator returns object because a JavaScript array is an object. So we use Array.isArray(fruits);     // returns true
+
+# Removing element from array based on some condition.
+a = [2,4,6,7];
+  var i;
+  for (i=0; i<= a.length; i++) {
+      if (a[i] === 4) {
+          a.splice(i,i);
+      }
+  }
+  console.log(a);
+
+# More commonly used methods:
+    - sort(): The sort() method sorts an array alphabetically. Will produce inconsistent result when sorting numbers, we can fix using compare function, its based on -ve, 0 and +ve values. for numbers use this Ex:
+    var points = [40, 100, 1, 5, 25, 10];                                                                 points.sort(function(a, b){return a - b}); // for descending use (return b - a)
+    - reverse(): The reverse() method reverses the elements in an array.
+    - Sorting Object Arrays: write a compare function to compare the property values.
+
+# JavaScript Array Iteration Methods
+    - Array.forEach(): The forEach() method calls a function (a callback function) once for each array element. https://www.w3schools.com/js/js_array_iteration.asp
+    - Array.map(): method creates a new array by performing a function on each array element
+
+

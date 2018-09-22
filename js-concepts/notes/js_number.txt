@@ -1,0 +1,23 @@
+# But with JavaScript, methods and properties are also available to primitive values, because JavaScript treats primitive values as objects when executing methods and properties.
+
+# Important methods
+    - toString() returns a number as a string. Ex: (123).toString();
+    - toExponential() returns a string, with a number rounded and written using exponential notation.
+    - toFixed() returns a string, with the number written with a specified number of decimals. Ex: x.toFixed(2), returns with 2 digit after decimal.
+    - toPrecision() returns a string, with a number written with a specified length:
+
+# Converting Variables to Numbers
+  There are 3 JavaScript methods that can be used to convert variables to numbers:
+    Number()	Returns a number, converted from its argument. **Number() can also convert a date to a number. Ex: Number(new Date("2017-09-30"));    // returns 1506729600000
+    parseFloat()	Parses its argument and returns a floating point number
+    parseInt()	Parses its argument and returns an integer. Only the first number is returned
+
+
+
+
+
+
+
+
+
+
