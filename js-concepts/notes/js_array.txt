@@ -1,5 +1,5 @@
-# arrays are same almost same as pythons
-    var array_name = [item1, item2, ...];     // dont put comma after last value, might not supported in old browsers.
+# arrays are same almost same as pythons //https://www.w3schools.com/js/js_array_iteration.asp
+    var array_name = [item1, item2, ...];     // don't put comma after last value, might not supported in old browsers.
     - Accessing the Last Array Element
         fruits = ["Banana", "Orange", "Apple", "Mango"];
         var last = fruits[fruits.length - 1];
@@ -43,5 +43,14 @@ a = [2,4,6,7];
 # JavaScript Array Iteration Methods
     - Array.forEach(): The forEach() method calls a function (a callback function) once for each array element. https://www.w3schools.com/js/js_array_iteration.asp
     - Array.map(): method creates a new array by performing a function on each array element
+    - Array.filter(): The filter() method creates a new array with array elements that passes a test.
+    - Array.reduce(): method runs a function on each array element to produce (reduce it to) a single value.
+    - Array.every(): method check if all array values pass a test. returns true or false
+    - Array.some(): method check if some array values pass a test.
+    - Array.indexOf(): Search an array for an element value and returns its position.
+    - Array.lastIndexOf(): Array.lastIndexOf() is the same as Array.indexOf(), but searches from the end of the array.
+    - Array.find(): The find() method returns the value of the first array element that passes a test function.
+    - Array.findIndex(): method returns the index of the first array element that passes a test function.
+
 
 

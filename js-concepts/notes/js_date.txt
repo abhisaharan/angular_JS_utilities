@@ -1,0 +1,30 @@
+# JavaScript Date Objects //https://www.w3schools.com/js/js_dates.asp
+    - Date objects are created with the new Date() constructor.
+    - new Date(): creates a new date object with the current date and time.
+    "new Date(year, month, day, hours, minutes, seconds, milliseconds)"
+    - JavaScript counts months from 0 to 11.
+    - You cannot omit month. If you supply only one parameter it will be treated as milliseconds.
+    - new Date(dateString) creates a new date object from a date string. var d = new Date("October 13, 2014 11:13:00");
+    - JavaScript Stores Dates as Milliseconds
+    - The toUTCString() method converts a date to a UTC string (a date display standard).
+    - The toDateString() method converts a date to a more readable format.
+    - If you have a valid date string, you can use the Date.parse() method to convert it to milliseconds.
+
+# common date time methods:
+    get date methods
+    - https://www.w3schools.com/js/js_date_methods.asp
+    set date methods
+    - https://www.w3schools.com/js/js_date_methods_set.asp
+
+
+
+
+
+
+
+
+
+
+
+
+
