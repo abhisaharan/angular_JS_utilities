@@ -36,3 +36,36 @@
   Writing into an alert box, using window.alert().
   Writing into the browser console, using console.log().
   Note**: The document.write() method should only be used for testing. Using document.write() after an HTML document is fully loaded, will delete all existing HTML
+
+# Notes**
+  The continue statement (with or without a label reference) can only be used to skip one loop iteration.
+  The break statement, without a label reference, can only be used to jump out of a loop or a switch.
+  With a label reference, the break statement can be used to jump out of any code block.
+
+# JavaScript Data Types
+    In JavaScript there are 5 different data types that can contain values:
+        string
+        number
+        boolean
+        object
+        function
+    There are 3 types of objects:
+        Object
+        Date
+        Array
+    And 2 data types that cannot contain values:
+        null
+        undefined
+    Please observe:
+
+    The data type of NaN is number
+    The data type of an array is object
+    The data type of a date is object
+    The data type of null is object
+    The data type of an undefined variable is undefined *
+    The data type of a variable that has not been assigned a value is also undefined *
+
+    **The Data Type of typeof
+    The typeof operator is not a variable. It is an operator. Operators ( + - * / ) do not have any data type.
+    But, the typeof operator always returns a string (containing the type of the operand).
+

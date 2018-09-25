@@ -17,6 +17,10 @@
 ----------------------
 # The typeof Operator
   You can use the JavaScript typeof operator to find the type of a JavaScript variable.
+  The constructor Property
+  The constructor property returns the constructor function for all JavaScript variables.
+  Ex: "John".constructor                // Returns function String()  {[native code]}
+
 ----------------------
 
 # Null
