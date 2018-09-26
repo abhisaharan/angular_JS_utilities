@@ -1,0 +1,18 @@
+# Regular expressions can be used to perform all types of text search and text replace operations.
+  https://www.w3schools.com/js/js_regexp.asp
+  Syntax: /pattern/modifiers;
+  Ex: var patt = /w3schools/i;
+  /w3schools/i  is a regular expression. w3schools  is a pattern (to be used in a search). i  is a modifier (modifies the search to be case-insensitive).
+
+# In JavaScript, regular expressions are often used with the two string methods: search() and replace().
+    - Using String replace() With a String
+    - string.search(): The search() method searches a string for a specified value and returns the position of the match:
+    - pattern.test(): It searches a string for a pattern, and returns true or false, depending on the result.
+    - pattern.exec(): It searches a string for a specified pattern, and returns the found text.
+
+
+
+
+
+
+
