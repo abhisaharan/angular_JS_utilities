@@ -27,3 +27,19 @@
   In JavaScript null is "nothing". It is supposed to be something that doesn't exist.
   Unfortunately, in JavaScript, the data type of null is an object.
   You can consider it a bug in JavaScript that typeof null is an object. It should be null.
+
+# What is "this"?
+  In a function definition, this refers to the "owner" of the function.
+  In the example, this refers to the person object.
+  The person object "owns" the fullName method.
+    var person = {
+        firstName: "John",
+        lastName : "Doe",
+        id       : 5566,
+        fullName : function() {
+            return this.firstName + " " + this.lastName; //****In other words: this.firstName                                        means the firstName property of this (person) object.
+        }
+    };
+
+
+

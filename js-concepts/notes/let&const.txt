@@ -1,0 +1,51 @@
+https://www.w3schools.com/js/js_let.asp
+# These two keywords provide Block Scope variables (and constants) in JavaScript.
+# Before ES2015, JavaScript had only two types of scope: Global Scope and Function Scope.
+    - Variables declared with the var keyword can not have Block Scope.
+        {
+            var x = 2;
+        }
+        // x CAN be used here
+    - Variables declared with the let keyword can have Block Scope.
+        {
+            let x = 2;
+        }
+        // x can NOT be used here
+
+    - loop scope:
+        - Using var in a loop:
+          var i = 5;
+          for (var i = 0; i < 10; i++) {
+              // some statements
+          }
+          // Here i is 10
+        - Using let in a loop:
+           let i = 5;
+           for (let i = 0; i < 10; i++) {
+               // some statements
+           }
+           // Here i is 5
+    - function scope:
+        - Variables declared with var and let are quite similar when declared inside a function or outside block. They will have function scope and global scope in later.
+    - Redeclaring a JavaScript variable with var is allowed anywhere in a program.
+    - Redeclaring a var variable with let, in the same scope, or in the same block, is not allowed:
+    - Redeclaring a let variable with let, in the same scope, or in the same block, is not allowed:
+    - Redeclaring a let variable with var, in the same scope, or in the same block, is not allowed:
+    - Redeclaring a variable with let, in another scope, or in another block, is allowed:
+
+# Variables defined with var are hoisted to the top but not the same with the let.
+
+# Global Variables in HTML: With Javascript, the global scope is the javascript environment and in HTML, the global scope is the window object.
+    - Global variables defined with the "var" keyword belong to the window object but variables defined with let keyword do not belong to the window object.
+            Ex: var carName = "Volvo";
+                // code here can use window.carName
+
+
+####----------------------
+JavaScript Const
+- Variables defined with const behave like let variables, except they cannot be reassigned:
+    const PI = 3.141592653589793;
+    PI = 3.14;      // This will give an error
+    PI = PI + 10;   // This will also give an error
+- Declaring a variable with const is similar to let when it comes to Block Scope.
+
